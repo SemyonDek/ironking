@@ -1,0 +1,41 @@
+#addCategoryForm {
+    padding-bottom: 30px;
+}
+
+.line-input-add {}
+
+.name-input-add {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 10px
+}
+
+.add-input, .add-file {
+    width: 300px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+}
+
+.add-file::file-selector-button {
+    margin-right: 20px;
+    padding: 8px 15px;
+    color: #fff;
+    background: #f10018;
+    border-color: #f10018;
+    border: 1px solid transparent;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.button-upd {
+    width: 375px;
+    margin: 0 0 24px;
+}
+
+.max-cat-img {
+    max-width: 30%;
+    max-height: 150px;
+    margin-right: 20px;
+}

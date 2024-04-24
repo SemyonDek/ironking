@@ -1,0 +1,76 @@
+#addProdForm {
+    padding-bottom: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.left-block-product-add {
+    width: 49%;
+}
+
+.right-block-product-add {
+    width: 49%;
+}
+
+.add_photo {
+    padding: 0 5px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: none;
+    border: 1px solid #e14035;
+    background-color: #f10018;
+    transition: all 0.3s ease;
+    line-height: 35px;
+    width: 150px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.add_photo:hover {
+    box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.175);
+}
+
+.file_photo {
+    display: flex;
+}
+
+.hidden {
+    display: none;
+}
+
+#phot_prod_add {
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.photo_add {
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: 10px;
+    text-align: right;
+    padding-top: 2px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+}
+
+button.del_photo {
+    padding: 0;
+    background-color: #000;
+    color: white;
+    border-radius: 40px;
+    font-family: Acrom;
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+textarea.add-input {
+    width: 100%;
+    height: 150px;
+    padding: 10px 15px;
+}

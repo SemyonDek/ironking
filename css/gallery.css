@@ -1,0 +1,37 @@
+.add-file {
+    width: 300px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+}
+
+.add-file::file-selector-button {
+    margin-right: 20px;
+    padding: 8px 15px;
+    color: #fff;
+    background: #f10018;
+    border-color: #f10018;
+    border: 1px solid transparent;
+    cursor: pointer;
+    box-shadow: none;
+}
+
+.button-del {
+    margin-top: 24px;
+}
+
+.button-add {
+    width: 250px;
+    height: 45px;
+}
+
+.list-category-img img {
+    position: absolute;
+    left: 0;
+    transform: translateX(-25%);
+    top: 0;
+    right: -50%;
+    bottom: 0;
+    margin: auto;
+    width: 160%;
+}

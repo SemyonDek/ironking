@@ -1,0 +1,27 @@
+.button-add, .button-upd, .button-del {
+    padding: 0 34px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: none;
+    border: 1px solid #e14035;
+    background-color: #f10018;
+    transition: all 0.3s ease;
+    line-height: 46px;
+    width: 375px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+
+.button-add:hover,
+.button-upd:hover,
+.button-del:hover {
+    box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.175);
+}
+
+.button-upd, .button-del {
+    width: 75%;
+    margin: 0 auto 24px;
+}

@@ -1,0 +1,22 @@
+#main-account-block .inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.title-account {
+    width: 100%;
+    margin: -8px 0 24px;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.button-basket {
+    width: 300px;
+    margin: 20px auto 0;
+}
+
+.basket-table {
+    border-color: #000;
+}

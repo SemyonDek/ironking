@@ -1,0 +1,19 @@
+.char-basket-block {
+    justify-content: space-between;
+}
+
+.info-client-block {
+    width: 50%;
+}
+
+.info-basket {
+    width: 50%;
+}
+
+.info-client-block .info-basket {
+    min-width: 500px;
+}
+
+.add-input {
+    margin-right: 20px;
+}

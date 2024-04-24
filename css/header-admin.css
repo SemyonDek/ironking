@@ -1,0 +1,33 @@
+#products, #orders, #main-slider-upd, #photos-category, #gallery {
+    background: #000;
+    width: 150px;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+#products a, #orders a, #main-slider-upd a, #photos-category a, #gallery a {
+    background: #000;
+    width: 150px;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+#account-button {
+    background-color: #fff;
+}
+
+#account-button a {
+    background: url(../svg/logout-svgrepo-com.svg) no-repeat center;
+}
